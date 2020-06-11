@@ -16,7 +16,7 @@ LanguesConfigArray = [
 			string: "@property (nonatomic, copy)", //字符
 			pointer: "@property (nonatomic, strong)" //指针类型
 		}, 
-		propertiesInfo : {
+		propertiesInfo : { //JavaScript类型 - 对应语言的类型
 			object: "NSObject",
 			array: "NSArray",
 			string : "NSString",
@@ -32,6 +32,7 @@ LanguesConfigArray = [
 		createdInfo: { //创建信息
 			projectName: "HLLL", //工程名称
 			creator: "LY", //创建者
+			organizationName: "LY" //组织、企业名称
 		}
 	},
 	{
@@ -66,6 +67,7 @@ LanguesConfigArray = [
 		createdInfo: { //创建信息
 			projectName: "HLLL", //工程名称
 			creator: "LY", //创建者
+			organizationName: "LY" //组织、企业名称
 		}
 	},
 	{
@@ -101,6 +103,7 @@ LanguesConfigArray = [
 		createdInfo: { //创建信息
 			projectName: "HLLL", //工程名称
 			creator: "LY", //创建者
+			organizationName: "LY" //组织、企业名称
 		}
 	}
 ];
