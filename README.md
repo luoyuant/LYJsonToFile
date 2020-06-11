@@ -2,6 +2,8 @@
 
 LYJsonToFile 可以根据JSON生成相应的Model文件。
 
+#### 下载该项目并解压，用浏览器打开index.html即可使用。
+
 ## 示例
 
 #### 静态图
