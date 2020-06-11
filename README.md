@@ -2,11 +2,11 @@
 
 LYJsonToFile 可以根据JSON生成相应的Model文件。
 
-##示例
+## 示例
 
 ![示例图片](https://github.com/luoyuant/LYJsonToFile/blob/master/readme-img/example.gif)
 
-##支持语言
+## 支持语言
 
 支持语言：`Objective-C`、`Swift`和`Java `。
 
@@ -14,9 +14,9 @@ LYJsonToFile 可以根据JSON生成相应的Model文件。
 
 你也可以模仿示例为其他语言生成文件。
 
-##使用说明
+## 使用说明
 
-####下载该项目并解压，用浏览器打开index.html即可使用。
+#### 下载该项目并解压，用浏览器打开index.html即可使用。
 
 1.选择对应语言；
 
@@ -28,7 +28,7 @@ LYJsonToFile 可以根据JSON生成相应的Model文件。
 
 **注意事项：切换语言或者修改左侧输入JSON时，右侧的所有Class名称都会重置为默认。**
 
-##设置
+## 设置
 
 **在language-config.js文件中修改对应语言的设置。**
 
@@ -49,12 +49,12 @@ LYJsonToFile 可以根据JSON生成相应的Model文件。
 | propertyKeywords | 声明属性的关键词 |  | √ |
 | createdInfo | 创建信息 |  | **建议修改为自己的相关信息** |
 
-##注意事项
+## 注意事项
 
 1.由于JavaScript里边小数点后面为0的数字全部判断为int，例如：填写JSON为{“width” : 17.0}，那么width字段会被判断为int的类型；
 2.日期不做处理，因为不明确JSON里边字符什么格式为日期，也有可能是时间戳对应日期。
 
-##为其他语言创建配置
+## 为其他语言创建配置
 
 1.在language-config.js里边添加相应语言的配置JSON。langueName改为该语言的名称，各项配置也改为该语言的配置。
 
