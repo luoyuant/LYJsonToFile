@@ -114,7 +114,7 @@ LYFileInfoMetaHandler.prototype.getCreatedInfoTextForJava = function(extensionNa
 	var tabSpace = "  ";
 	var createdText = "//\n//" + tabSpace + className + "." + extensionName + "\n//" + tabSpace + createdInfo.projectName + 
 	"\n\n//" + tabSpace + "Created by " + createdInfo.creator + " on " + formatDate(date) + ".\n//" + tabSpace + 
-	"Copyright © " + date.getFullYear() + " " + createdInfo.creator + ". All rights reserved." + "\n//\n\n";
+	"Copyright © " + date.getFullYear() + " " + createdInfo.organizationName + ". All rights reserved." + "\n//\n\n";
 	return createdText;
 }
 
