@@ -6,11 +6,11 @@ LYJsonToFile 可以根据JSON生成相应的Model文件。
 
 #### 静态图
 
-![示例图片](https://github.com/luoyuant/LYJsonToFile/blob/master/readme-img/example.gif)
+![示例图片](https://github.com/luoyuant/LYJsonToFile/blob/master/readme-img/example-static.png)
 
 #### 动态图
 
-![示例图片](https://github.com/luoyuant/LYJsonToFile/blob/master/readme-img/example-static.png)
+![示例图片](https://github.com/luoyuant/LYJsonToFile/blob/master/readme-img/example.gif)
 
 ## 支持语言
 
