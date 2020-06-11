@@ -12,6 +12,37 @@ LYJsonToFile 可以根据JSON生成相应的Model文件。
 
 ## 示例
 
+例如能够根据JSON
+
+> {"name" : "", "age" : 17}
+
+生成Swift内容
+
+> ```swift
+> //
+> //  LYModel.swift
+> //  HLLL
+> 
+> //  Created by LY on 2020/6/11.
+> //  Copyright © 2020 LY. All rights reserved.
+> //
+> 
+> import UIKit
+> 
+> class LYModel {
+> 
+>     var name: String = "";
+>     var age: Int?;
+> 
+> }
+> ```
+
+
+
+并且能够下载生成的文件。
+
+
+
 #### 静态图
 
 ![示例图片](https://github.com/luoyuant/LYJsonToFile/blob/master/readme-img/example-static.png)
